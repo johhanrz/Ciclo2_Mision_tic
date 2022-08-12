@@ -1,0 +1,84 @@
+
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package prueba;
+public class Prueba {
+    public static void main(String[] args) {
+        // TODO code application logic here
+
+System.out.println("Hola Mundo");
+
+int resultado= 1+2;
+
+System.out.println("El resultado es: " + resultado);
+
+int a= 7;
+int b= 2;
+int c;
+c = a+b;
+System.out.println (c);
+
+
+int k, l, p;
+String j;
+
+k= 7;
+l=3;
+p= k+l;
+j= "La edad es";
+System.out.println (j + p); // concatenar texto con variables (operaciones)
+
+String primeracadena = "Hola";
+String segundacadena = "Mundo";
+String cadenaconcatenada = primeracadena + " " + segundacadena;
+System.out.println (cadenaconcatenada);
+
+
+int i =3;
+i++;
+System.out.println (i);
+
+i++;
+System.out.println (i);
+
+i+=2;
+System.out.println(i);
+
+
+int valor1 =1;
+int valor2= 2;
+
+if (valor1== valor2)
+    System.out.println ("Valor1 == Valor2");
+if (valor1!=valor2)
+    System.out.println ("Valor1 != Valor2");
+if (valor1<valor2)
+    System.out.println ("valor1 < valor 2");
+if (valor1> valor2)
+    System.out.println ("Valor 1 > Valor 2");
+
+if ((valor1==1)&& (valor2==2))
+    System.out.println ("Valor1 es 1 AND valor 2 es 2");
+if ((valor1 ==1)||(valor2==1))
+    System.out.println ("Valor 1 es 1 OR Valor 2 es 1");
+
+
+String L = "higo";
+String U = "Higo";
+String M = "higo";
+
+
+System.out.println (L.equals(U)); // Imprime false EQUALS verifica si dos cadenas de caracteres son iguales
+System.out.println(L.equalsIgnoreCase(U)); // Imprime TRUE verifica sin tener encuenta mayusculas ni minusculas
+System.out.println (L.equals(M));
+
+
+
+  }
+
+}
